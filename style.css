@@ -92,7 +92,9 @@ footer {
   position: relative;
   padding-left:10px ;
 }
-
+footer a{
+    color: inherit;
+}
 @media (max-width: 800px) {
     main{
       grid-template-columns: 1fr;  
