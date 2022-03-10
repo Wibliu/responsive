@@ -1,0 +1,100 @@
+body {
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: rgb(204, 204, 207);
+  padding: 5rem;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  border-radius: 5px 5px 0px 0px;
+  margin: 0px;
+  padding: 10px 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+header h1 {
+  color: hsl(179, 62%, 43%);
+}
+header h2 {
+  color: hsl(71, 73%, 54%);
+}
+header p {
+  color: rgb(184, 184, 192);
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container_filho1 {
+  position: relative;
+  border-radius: 0px 0px 0px 5px;
+  display: grid;
+  justify-content: center;
+  color: white;
+  background-color: hsl(179, 61%, 38%);
+  padding: 30px;
+}
+
+.container_filho1 h2 {
+  font-size: 2rem;
+}
+.container_filho1 a {
+  display: flex;
+  padding: 10px;
+  width: 250px;
+  justify-content: center;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  color: white;
+  justify-self: center;
+}
+.txtvalor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 120px;
+}
+.container_filho2 {
+  display: grid;
+  justify-content: center;
+  width: auto;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0px 0px 5px 0px;
+}
+.container_filho2 h1 {
+  position: relative;
+  top: 20px;
+  padding: 10px;
+  color: white;
+  display: grid;
+  justify-content: left;
+}
+.container_filho2 li {
+  margin: 0px;
+  padding: 10px;
+  list-style: none;
+  color: white;
+  display: grid;
+  justify-content: left;
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  display: grid;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 0px 0px 2pc 2pc;
+  position: relative;
+  padding-left:10px ;
+}
+
+@media (max-width: 800px) {
+    main{
+      grid-template-columns: 1fr;  
+    }
+}
