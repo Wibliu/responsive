@@ -97,4 +97,13 @@ footer {
     main{
       grid-template-columns: 1fr;  
     }
+    body{
+        padding: 40px;
+    }
+    .container_filho1{
+        border-radius: 0px;
+    }
+    .container_filho2{
+        border-radius: 0px 0px 0px 0px;
+    }
 }
